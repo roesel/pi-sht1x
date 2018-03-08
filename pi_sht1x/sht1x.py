@@ -348,7 +348,7 @@ class SHT1x:
         """
         GPIO.output(pin, state)
         if pin == self.sck_pin:
-            time.sleep(0.0000001)
+            time.sleep(0.000001)
 
     def _transmission_start(self):
         """
